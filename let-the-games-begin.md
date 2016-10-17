@@ -35,9 +35,9 @@ is_alive = True
 ```
 
 **IMPORTANTE**: vamos falar sobre versôes... no Python 2, temos uma outra funçao para entrada de dados, a ```raw_input```, que pega exatemante o que o usuário digitou e salva isso como uma string e o ```input```, que tenta rodar a entrada como uma expressão Python (a ideia é que ele faz o raw_input() e então executa um eval()).
-No python 3.x, ```raw_input``` foi renomeado para ```input```.
+No python 3.x, ```raw_input``` foi renomeado para ```input```, e para usar o equivalente ao ```input``` do Python 2, deve-se usar: ```eval(input())```
 
-**IMPORTANTE**: *what the hell is eval???* De forma simples, a função ```eval``` vai interpretar a string como código... talvez o exemplo ajude melhor:
+**IMPORTANTE**: *what the hell is eval???*  De forma simples, a função ```eval``` vai interpretar a string como código... talvez o exemplo ajude melhor:
 
 ```python
 >>> x = 1
