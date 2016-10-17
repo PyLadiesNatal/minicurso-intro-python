@@ -9,3 +9,4 @@ Python também é um software livre, ou seja, está disponível para ser utiliza
 Se você ainda está se perguntando quem usa Python ou para que vou usar essa linguagem... bem, inteligência artificial, banco de dados, biotecnologia, animação 3D, aplicativos móveis, jogos, aplicativos web, estas são algumas das utilidades do Python. Além disso, grandes empresas e aplicativos utilizam a linguagem, como a Globo.com, Netflix, Google, Amazon Web Service, etc.
 
 Mas adiante você verá outros motivos para considerar Python uma ótima linguagem de programação tanto para iniciantes quanto para programadores experiêntes.
+
