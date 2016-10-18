@@ -18,7 +18,7 @@ A ideia por trás das condições é controlar quando um trecho do código deve 
 Podemos ter um controle ainda maior, e não somente 'se for verdade' e 'se não for'.
 
 ```python
-if size.isnumeric():
+if size.isnumeric() and 0 < size < 10:
     size = float(size)
     if 0 < size <= 3:
         height = "short"
@@ -27,5 +27,5 @@ if size.isnumeric():
     else:
         height = "tall" 
 else:
-    print('O valor digitador precisa ser numérico e estar no intervalo de 1 a 10.')
+    print('O valor digitador precisa ser numérico e estar no intervalo de 0 a 10.')
 ```
