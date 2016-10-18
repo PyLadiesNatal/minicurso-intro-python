@@ -2,6 +2,7 @@
 
 Repositório criado para suporte ao minicurso de introdução a Python.
 
+Testes...
 
 ## Tips
 
