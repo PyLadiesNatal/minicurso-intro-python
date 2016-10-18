@@ -41,11 +41,11 @@ Esse comando vai abrir o editor no seu terminal.
 
 ![Editor da mensagem de commit](/images/tela_commit.png)
 
-A primeira linha é reservada ao titulo do commit, dando enter você pode adicionar uma mensagem de corpo.
+A primeira linha é reservada ao título do commit, dando enter você pode adicionar uma mensagem de corpo.
 
 ![Editor da mensagem de commit](/images/tela_msg_commit.png)
 
-6. Agora ta feito, faz o push na fé.
+6. Estamos quase lá, agora você pode fazer o push para a branch em que está trabalhando.
 
 ```    
     $ git push origin nome_branch
