@@ -23,3 +23,4 @@ Antes de começarmos, algumas dicas:
 * [Primeiro passo](primeiro-passo.md)
 * [Let the games begin](let-the-games-begin.md) 
 * [Condicionais](condicionais.md) 
+* [Repetições](repeticoes.md) 
