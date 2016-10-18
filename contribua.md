@@ -10,7 +10,7 @@
 ```
     $ git checkout -b nome_branch
 ```
-    Ex: $ git checkout -b documentacao_codigo
+    Ex: ```$ git checkout -b documentacao_codigo```
     
 3. Esse comando vai criar a branch e já coloca você nela, então pode começar a fazer as modificações o/
 
@@ -37,6 +37,29 @@ tenha adicionado ou modificado algo além do que foi descrito no titulo. Uma op�
 ```
     $ git commit -a 
 ```
+Esse comando vai abrir o editor no seu terminal. 
 
-Esse comando vai abrir o editor no seu terminal.   
+![Editor da mensagem de commit](/images/tela_commit.png)
 
+A primeira linha é reservada ao titulo do commit, dando enter você pode adicionar uma mensagem de corpo.
+
+![Editor da mensagem de commit](/images/tela_msg_commit.png)
+
+6. Agora ta feito, faz o push na fé.
+
+```    
+    $ git push origin nome_branch
+```  
+
+7. Até agora você subiu suas modificaçoes para a sua branch no repositorio. Imagine que você esta fazendo um relatorio, e cada um precisa escrever uma pagina sobre um assunto. Você leva sua folha para casa, escreve sobre e no outro diz traz a folha de volta. Você e seus amigos se sentam e comparam o que rolou em cada folha, o que cada um fez, o que juntar, o que ficou repetido, etc...
+Basicamente a branch é sua folha. Agora devemos partir para a parte de juntar o que foi escrito. Você fara o pull request o/
+
+Uma opçao é abrir o repositorio no github, ir na aba 'Pull requests' e clicar no botao verde grandao no canto direito, 'New pull request'.
+
+![Fazendo pull request](/images/pull_request.png)
+
+Você vai ser encaminhada a uma pagina onde vai escolher a branch para onde vai enviar as suas modificaçoes (master), e a branch onde esta suas modificaçoes.
+
+![Fazendo pull request](/images/pull_request_final.png)
+
+8. Agora é esperar uma das meninas verem o que foi enviado, e dar um approves :)
