@@ -1,6 +1,6 @@
-### let the games begin
+## Let the games begin
 
-Ok, vamos começar... e a sua primeira missão será easy: precisamos descrever quais caracteristicas um personagem simples terá. Por exemplo, nosso personagem com certeza tera um nome... talvez uma taxa de vida? Um tamanho? Seria legal saber se ele está vivo...
+Ok, vamos começar... para este minicurso, tentaremos implementar um jogo simples com personagens, ações, ataques, etc. E a sua primeira missão será easy: precisamos descrever quais caracteristicas um personagem simples terá. Por exemplo, nosso personagem com certeza tera um nome... talvez uma taxa de vida? um tamanho? seria legal saber se ele esta vivo...
 
 ```python
 name = "..."
