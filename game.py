@@ -19,8 +19,8 @@ while True:
         print('O valor digitador precisa ser numérico e estar no intervalo de 1 a 10.')
 
 while True:
-    life = input("Digite o tamanho: ")
-    if life.isnumeric() and 0 < life < 20:
+    life = input("Digite a life: ")
+    if life.isnumeric() and 0 < float(life) <= 20:
         life = float(life)
         break
     else:
@@ -29,8 +29,16 @@ while True:
 
 is_alive = True
 
+skills = ['força', 'destreza', 'inteligência']
+skills_values = []
+for skill in skills:
+    value = float(input("Digite um valor para a skill {}: ".format(skill)))
+    skills_values.append(value)
+
 print()
 print(">> name " + name)
 print(">> size " + str(size))
 print(">> life " + str(life))
 print(">> is alive? " + str(is_alive))
+for skill, value in zip(skills, skills_values):
+    print(">> skill {} - {}".format(skill, value))
