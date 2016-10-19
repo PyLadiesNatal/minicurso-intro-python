@@ -13,9 +13,9 @@ else:
     print('O valor digitador precisa ser numérico e estar no intervalo de 0 a 20.')
 ```
 
-A ideia por trás das condições é controlar quando um trecho do código deve ser executado ou não. Você vai controlar o fluxo do seu programa. Como no exemplo dado, vamos verificar se o valor de ```life``` é numérico e se está no intervalo de 0 a 20.
+A ideia por trás das condições é controlar quando um trecho do código deve ser executado ou não, você vai controlar o fluxo do seu programa. Como no exemplo dado, vamos verificar se o valor de ```life``` é numérico e se está no intervalo de 0 a 20.
 
-Podemos ter um controle ainda maior e não somente o 'se for verdade' e 'se não for'.
+Agora podemos ter um controle ainda maior, e não somente 'se for verdade' e 'se não for'.
 
 ```python
 if size.isnumeric():
