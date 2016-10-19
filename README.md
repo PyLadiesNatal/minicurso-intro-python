@@ -27,3 +27,4 @@ Antes de começarmos, algumas dicas:
 * [Tuplas](tuplas.md)
 * [Sets](sets.md)
 * [Dicionários](dicionarios.md)
+* [Filas](fila.md)
