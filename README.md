@@ -22,4 +22,6 @@ Antes de começarmos, algumas dicas:
 * [Primeiro passo](primeiro-passo.md)
 * [Let the games begin](let-the-games-begin.md) 
 * [Condicionais](condicionais.md) 
-* [Repetições](repeticoes.md) 
+* [Repetições](repeticoes.md)
+* [Estrutura de Dados](estrutura.md)
+* [Tuplas](tuplas.md)
