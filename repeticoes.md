@@ -1,6 +1,6 @@
 ## Again, again, again...
 
-Você já deve ter se deparado com códigos que precisavam ser executados várias vezes em função de alguma condição. Um exemplo simples seria a entrada de dados do nosso jogo... enquanto o jogador não inserir o valor correto, vamos continuar pedindo que ele digite.
+Você já deve ter se deparado com códigos que precisavam ser executados várias vezes em função de alguma condição. Um exemplo simples seria a entrada de dados do nosso jogo... enquanto o jogador não inserir o valor correto, vamos continuar pedindo que o ele digite.
 
 Uma das estruturas que o Python disponibiliza é o ``while```. Ele vai repetir um bloco de código enquanto uma condição for verdadeira.
 
@@ -27,13 +27,13 @@ while True:
 
 Vamos aproveitar esse exemplo para falar sobre a instruçāo ```break``` , que interrompe a execução do ```while```, caso o valor de ```life``` seja numérico e esteja entre 1 e 20.
 
-Uma outra estrutura importante é o ```for```, que nós usamos em nosso exemplo com uma informaçao adicional: as skills. Criamos três skill básicas:
+Uma outra estrutura importante é o ```for```, que nós usamos em nosso exemplo com uma informação adicional: as skills. Criamos três skill básicas:
 
 ```python
 skills = ['força', 'destreza', 'inteligência']
 ```
 
-Caso você nao saiba que estrutura é esta, falaremos sobre ela melhor mais para frente, no momento basta saber que esta é uma lista em Python. 
+Caso você não saiba que estrutura é esta, falaremos sobre ela melhor mais adiante, no momento basta saber que esta é uma lista em Python.
 
 Criamos também uma lista para os valores de cada skill, e utilizamos o ```for``` para "caminhar" pela lista:
 
@@ -45,7 +45,7 @@ for skill in skills:
     skills_values.append(value)
 ```
 
-Basicamente este ```for``` vai atribuir a ```skill``` cada falar armazanado em ```skills```, seguindo a sequência em que eles aparecem. Ou seja:
+Basicamente, este ```for``` vai atribuir a ```skill``` cada valor armazenado em ```skills```, seguindo a sequência em que eles aparecem. Ou seja:
 
 1) skill = 'força'
 2) skill = 'destreza'
@@ -53,11 +53,11 @@ Basicamente este ```for``` vai atribuir a ```skill``` cada falar armazanado em `
 
 Também usamos o ```for``` quando imprimimos a lista de skill com seus valores:
 
-```python 
+```python
 for skill, value in zip(skills, skills_values):
     print(">> skill {} - {}".format(skill, value))
 ```
 
-**CURIOSIDADE**: no nosso exemplo usamos a funçao ```zip()```, a ideia dela é fazer um iterador que agrega elementos de cada uma das listas. Mas para frente estudaremos uma estrutura de dados chamada tupla, e podemos voltar a esta função e entendê-la melhor, mas resumidamente teremos:
+**CURIOSIDADE**: no nosso exemplo usamos a função ```zip()```, a ideia dela é fazer um iterador que agrega elementos de cada uma das listas. Mais para frente, estudaremos uma estrutura de dados chamada tupla e poderemos voltar a esta função e entendê-la melhor, mas resumidamente teremos:
 
     zip('ABCD', 'xyzw') --> Ax By Cz Dw
