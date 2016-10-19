@@ -24,3 +24,6 @@ Antes de começarmos, algumas dicas:
 * [Let the games begin](let-the-games-begin.md) 
 * [Condicionais](condicionais.md) 
 * [Repetições](repeticoes.md) 
+* [Estrutura de Dados](estrutura.md)
+* [Tuplas] (tuplas.md)
+* [Dicionário](dicionario.md)
