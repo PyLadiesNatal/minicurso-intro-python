@@ -26,3 +26,4 @@ Antes de começarmos, algumas dicas:
 * [Estrutura de Dados](estrutura.md)
 * [Tuplas](tuplas.md)
 * [Sets](sets.md)
+* [Dicionários](dicionarios.md)
