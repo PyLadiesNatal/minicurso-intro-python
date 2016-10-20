@@ -4,8 +4,6 @@ Agora temos um pequeno problema: e se o nosso jogador digitar uma palavra no lug
 
 Por vezes, você vai se deparar com trechos de código que poderão ser executados ou não, para tratar isso necessitaremos de expressões lógicas para representar essas escolhas. Nesse momento, usamos os condicionais para controlar o fluxo do programa. Vamos ver um exemplo:
 
-
-
 ```python
 life = input("Digite o xp: ")
 if life.isnumeric() and 0 < size < 20:
@@ -16,7 +14,7 @@ else:
 
 A ideia por trás das condições é controlar quando um trecho do código deve ser executado ou não, você vai controlar o fluxo do seu programa. Como no exemplo dado, vamos verificar se o valor de ```life``` é numérico e se está no intervalo de 0 a 20.
 
-Agora podemos ter um controle ainda maior, e não somente 'se for verdade' e 'se não for'. 
+Agora podemos ter um controle ainda maior, e não somente o 'se for verdade' e 'se não for'.
 
 ```python
 if size.isnumeric():
@@ -28,5 +26,5 @@ if size.isnumeric():
     else:
         height = "tall"
 else:
-    print('O valor digitado precisa ser numérico e estar no intervalo de 1 a 10.')
-``` 
+    print('O valor digitador precisa ser numérico e estar no intervalo de 1 a 10.')
+```

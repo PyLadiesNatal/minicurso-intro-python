@@ -49,7 +49,7 @@ a.remove(333)
 ```python
 >>> a.reverse()
 ```
-* Usando listas como filas
+* Usando listas como filas:
 Você também pode usar uma lista como uma fila, mas para isso ela deve obedecer algumas regras com relação a inclusão e remoção de um elemento.No caso das filas, o primeiro item adicionado é o primeiro a ser recuperado (“primeiro a entrar, primeiro a sair”, FIFO, "first in first out").
 
 ```Adicionando elemento na fila:```
@@ -63,7 +63,7 @@ a.append(teste)
 a.pop(3)
 ```
 
-* Usando listas como pilhas
+* Usando listas como pilhas:
 Sua política funciona basicamente com a adição de um item no topo e a remoção também é feita no topo (política “último a entrar, primeiro a sair”, LIFO, "Last in First Out). Para adicionar um item ao topo da pilha, use append(). Para recuperar um item do topo da pilha use pop() sem nenhum índice.
 
 ```python
@@ -74,7 +74,7 @@ a.append(10)
 a.pop()
 ```
 
-* Comando ```del```
+* Comando ```del``` :
 Uma outra forma de remover um item de uma lista conhecendo apenas seu índice, ao invés de seu valor é utilizando o comando ```del```.
 
 ```python
@@ -89,7 +89,7 @@ Uma outra forma de remover um item de uma lista conhecendo apenas seu índice, a
 >>> a
 []
 ```
-* Tamanho da lista
+* Tamanho da lista:
 Usando a função ```len``` teremos como retorno o número de elementos de nossa lista.
 
 ```python
@@ -101,7 +101,7 @@ Usando a função ```len``` teremos como retorno o número de elementos de nossa
 0
 ```
 
-* Usando o ```range```
+* Usando o ```range``` :
 A função range com certeza será de grande ajuda em algum momento da sua vida. Basicamente, ela pode gerar listas simples de forma mais simples ainda.
 
 ```python

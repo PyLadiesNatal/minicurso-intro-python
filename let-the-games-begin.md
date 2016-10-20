@@ -2,7 +2,6 @@
 
 Ok, vamos começar... para este minicurso, tentaremos implementar um jogo simples com personagens, ações, ataques, etc. E a sua primeira missão será easy: precisamos descrever quais caracteristicas um personagem simples terá. Por exemplo, nosso personagem com certeza terá um nome... talvez uma taxa de vida? um tamanho? seria legal saber se ele está vivo...
 
-
 ```python
 name = "..."
 size = 1
@@ -35,12 +34,10 @@ life = int(input("Digite o xp: "))
 is_alive = True
 ```
 
-
 **IMPORTANTE**: vamos falar sobre versões... no Python 2, temos uma outra função para entrada de dados, a ```raw_input```, que pega exatamente o que o usuário digitou e salva isso como uma string e o ```input```, que tenta rodar a entrada como uma expressão Python (a ideia é que ele faz o raw_input() e então executa um eval()).
 No python 3.x, ```raw_input``` foi renomeado para ```input```, e para usar o equivalente ao ```input``` do Python 2, deve-se usar: ```eval(input())```
 
 **IMPORTANTE**: *what the hell is eval???*  De forma simples, a função ```eval``` vai interpretar a string como código... talvez o exemplo ajude melhor a entender:
-
 
 ```python
 >>> x = 1

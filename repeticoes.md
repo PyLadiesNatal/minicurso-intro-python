@@ -53,7 +53,6 @@ Basicamente, este ```for``` vai atribuir a ```skill``` cada valor armazenado em 
 
 Também usamos o ```for``` quando imprimimos a lista de skill com seus valores:
 
-
 ```python
 for skill, value in zip(skills, skills_values):
     print(">> skill {} - {}".format(skill, value))
@@ -62,4 +61,3 @@ for skill, value in zip(skills, skills_values):
 **CURIOSIDADE**: no nosso exemplo usamos a função ```zip()```, a ideia dela é fazer um iterador que agrega elementos de cada uma das listas. Mais para frente, estudaremos uma estrutura de dados chamada tupla e poderemos voltar a esta função e entendê-la melhor, mas resumidamente teremos:
 
     zip('ABCD', 'xyzw') --> Ax By Cz Dw
-
