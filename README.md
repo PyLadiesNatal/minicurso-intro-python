@@ -25,6 +25,6 @@ Antes de começarmos, algumas dicas:
 * [Repetições](repeticoes.md)
 * [Estrutura de Dados](estrutura.md)
 * [Tuplas](tuplas.md) 
-* [Sets](sets.md)
-* [Dicionários](dicionarios.md)
+* [Sets](sets.md) 
+* [Dicionários](dicionarios.md) 
 * [Filas](fila.md) 
