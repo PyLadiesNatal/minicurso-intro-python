@@ -33,8 +33,8 @@ As tuplas também suportam acesso aos valores através dos índices e maior part
         print (num)
 ```
 
-Python também permite operações chamadas de empacotamento e desempacotamento. O empacotamento acontece como no exemplo: 
-```Pintln(t = 12345, 54321, 'python!'. Os valores 12345, 54321, 'python!' são empacotados na tupla S```t```." 
+Python também permite operações chamadas de empacotamento e desempacotamento. O empacotamento acontece como no exemplo:
+```Pintln(t = 12345, 54321, 'python!'. Os valores 12345, 54321, 'python!' são empacotados na tupla ```t```." 
 Também podemos criar tuplas a apartir de listas, usando a função ```tupla```.
 
 ```python
