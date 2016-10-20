@@ -20,16 +20,8 @@ Antes de começarmos, algumas dicas:
 ## Assuntos
 
 * [Primeiro passo](primeiro-passo.md)
-<<<<<<< HEAD
-* [Git](git.md)
-* [Let the games begin](let-the-games-begin.md) 
-* [Condicionais](condicionais.md) 
-* [Repetições](repeticoes.md) 
-* [Estrutura de Dados](estrutura.md)
-* [Tuplas](tuplas.md)
-* [Dicionário](dicionario.md)
-=======
 * [Let the games begin](let-the-games-begin.md)
+* [Git](git.md)
 * [Condicionais](condicionais.md)
 * [Repetições](repeticoes.md)
 * [Estrutura de Dados](estrutura.md)
@@ -37,4 +29,3 @@ Antes de começarmos, algumas dicas:
 * [Sets](sets.md) 
 * [Dicionários](dicionarios.md) 
 * [Filas](fila.md) 
->>>>>>> 3aad19bf1faecacb985423df191f55ff04ee6293
