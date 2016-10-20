@@ -2,7 +2,7 @@
 
 ```Git``` é um sistema de controle de versão de arquivos. Através deles podemos desenvolver projetos na qual diversas pessoas podem contribuir simultaneamente no mesmo, editando e criando novos arquivos e permitindo que os mesmos possam existir sem o risco de suas alterações serem sobrescritas. Podemos utilizar serviços online para armazenar nossos repositórios, optamos em utilizar o [GitHub](https://github.com/) e vocês irão desenvolver o minicurso e salvar os projetos desenvolvidos nele.
 
-* Instalando o Git *
+** Instalando o Git **
 
 ```python
 sudo apt-get install git-core
@@ -20,7 +20,7 @@ Agora já dá para se comunicar com o ```github```
 ```python
 ssh git@github.com
 ```
-** Observação: Irá aparecer uma mensagem "ERROR: Hi foo! You've successfully authenticated, but GitHub does not provide shell access", ignore o erro, o que importa é que o ```GitHub``` te reconheceu.
+* Observação : Irá aparecer uma mensagem "ERROR: Hi foo! You've successfully authenticated, but GitHub does not provide shell access", ignore o erro, o que importa é que o ```GitHub``` te reconheceu.
 
 Por padrão o git vai pegar o usuário do sistema, para que seu nome de usuário do github apareça corretamente use os comandos:
 
@@ -28,7 +28,7 @@ Por padrão o git vai pegar o usuário do sistema, para que seu nome de usuário
 git config --global user.name "Your Name"
 git config --global user.email foo@example.com
 ```
-* Criando projeto no GitHub *
+** Criando projeto no GitHub **
 
 Para criar um novo vá até o github e no alto da página clique em ```"Dashboard"``` e depois em ```"New Repository"```.
 Crie um espaço para o projeto no computador.
@@ -44,13 +44,13 @@ git init
 ```
 Deve aparecer um diretorio oculto .git, neste .git ficam as configurações que serão usadas para este projeto.
 
-Adicionando o repositório no GitHub
+** Adicionando o repositório no GitHub **
 
 ```python
 git remote add origin git@github.com:foo/tutorial-github.git
 ```
 
-* Comandos *
+** Comandos **
 
 ```git remote add <arquivos>```: adiciona um repositório ao git que foi iniciado neste diretório.
 
@@ -76,7 +76,7 @@ git merge iss53
 ```git commit --amend```: modifica a mensagem do commit mais recente, ou seja, o último commit feito por você no projeto. Além de você mudar a mensagem do commit, você consegue adicionar arquivos que você se esqueceu ou retirar arquivos comitados por engano. O git cria um commit totalmente novo e corrigido.
 
 
-* Testando o uso do Git *
+** Testando o uso do Git **
 
 Criando arquivo:
 
@@ -108,4 +108,4 @@ Se durante o tempo em que fez o pull e o push outra pessoa que também participe
 ```python
 git fetch origin
 ```
-* Branches *
+** Branches **
