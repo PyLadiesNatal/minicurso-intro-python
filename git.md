@@ -60,6 +60,15 @@ git remote add origin git@github.com:foo/tutorial-github.git
 
 ```git pull origin master```: Baixar(pull=puxar) o projeto para o projeto local.
 
+```git checkout -b iss53```: Para trabalhar em uma issue específica e criar uma branch para as alterações antes de dar deploy no repositório master.
+
+```git merge iss53```: Após rodar os testes e ter certeza que é a correção ou atualização que você quer, faça o merge no seu branch master para fazer deploy em produção.
+
+```python
+git checkout master
+git merge iss53
+```
+
 ```git push origin master```: Enviar(push=empurrar) o projeto para o repositório no GitHub.
 
 ```git clone```: Clona um projeto para a máquina que irá acessar o repositório.
