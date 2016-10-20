@@ -52,3 +52,18 @@ Mesmo que não possamos fazer alterações na tupla depois de criá-la, podemos 
 >>> t1 + t2
 (1, 2, 3, 4, 5, 6)
 ```
+
+**IMPORTANTE**: Tuplas podem conter objetos que podem ser alterados, mas as alterações nesses objetos não são consideradas mudanças na tupla em si, como no exemplo:
+
+```python
+>>> tupla = ("a", ["b", "c", "d"])
+>>> tupla
+('a', ['b', 'c', 'd'])
+>>> len(tupla)
+2
+>>> tupla[1]
+['b', 'c', 'd']
+>>> tupla[1].append("e")
+>>> tupla
+('a', ['b', 'c', 'd', 'e'])
+```
