@@ -38,7 +38,14 @@ for skill in skills:
 
 personagem['skills'] = skills_values
 
+
 ataques = [('tapa na cara', 1), ('voadora', 2)]
+
+skills = ['força', 'destreza', 'inteligência']
+skills_values = []
+for skill in skills:
+    value = float(input("Digite um valor para a skill {}: ".format(skill)))
+    skills_values.append(value)
 
 print()
 print(">> name " + personagem['name'])
