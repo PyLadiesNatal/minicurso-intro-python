@@ -9,7 +9,7 @@ life = input("Digite o xp: ")
 if life.isnumeric() and 0 < size < 20:
     life = float(life)
 else:
-    print('O valor digitador precisa ser numérico e estar no intervalo de 0 a 20.')
+    print('O valor digitado precisa ser numérico e estar no intervalo de 0 a 20.')
 ```
 
 A ideia por trás das condições é controlar quando um trecho do código deve ser executado ou não, você vai controlar o fluxo do seu programa. Como no exemplo dado, vamos verificar se o valor de ```life``` é numérico e se está no intervalo de 0 a 20.
@@ -26,5 +26,5 @@ if size.isnumeric():
     else:
         height = "tall"
 else:
-    print('O valor digitador precisa ser numérico e estar no intervalo de 1 a 10.')
+    print('O valor digitado precisa ser numérico e estar no intervalo de 1 a 10.')
 ```
