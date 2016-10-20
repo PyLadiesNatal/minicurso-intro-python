@@ -10,6 +10,12 @@ mercadinho = {	"Banana" : 3.00,
 				"Uva"	 : 8.00 }
 ```
 
+| Produto | Valor |
+|---------|-------|
+| Banana  | 3.00  |
+| Maçã    | 5.00  |
+| Uva     | 8.00  |
+
 Para acessar as informações do dicionário, devemos utilizar duas chaves.
 
 ```python

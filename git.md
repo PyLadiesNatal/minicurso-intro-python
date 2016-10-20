@@ -108,4 +108,3 @@ Se durante o tempo em que fez o pull e o push outra pessoa que também participe
 ```python
 git fetch origin
 ```
-** Branches **
