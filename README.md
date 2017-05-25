@@ -29,3 +29,4 @@ Antes de começarmos, algumas dicas:
 * [Sets](sets.md) 
 * [Dicionários](dicionario.md) 
 * [Filas](fila.md) 
+* [Funções](funcoes.md)
